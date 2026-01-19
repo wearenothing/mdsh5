@@ -1,0 +1,27 @@
+shot_numbers:
+  - 36158 to 36160
+
+trees:
+  KSTAR:
+    - NE_TCI01
+    - RC02
+  EFIT01:
+    - RVSOUT
+    - ZVSOUT
+
+# Optional: resample the data to a common time base.
+resample:
+  start: -0.1
+  stop: 20.0
+  increment: 0.1
+
+# Optional: rescale time units for specific trees (example: EFIT01 time axis in ms).
+rescale:
+  KSTAR: 1
+  EFIT01: 1e-3
+
+out_filename: kstar_example_pipeline.h5
+
+# Server details (update with your own).
+server: username@mds.example.org:8005
+# proxy_server: gateway.example.org:2039

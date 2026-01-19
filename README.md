@@ -43,6 +43,11 @@ Additionally, if you use VSCode, I highly recomment installing the [H5Web extens
 
 Additional documentation would come soon. For now, please refer to the [config_examples](https://github.com/anchal-physics/mdsh5/tree/main/mdsh5/config_examples) to get started on how to provide the input configuration.
 
+For a full end-to-end example (read data, save HDF5, compute summary stats, and optional plotting), see:
+
+* `mdsh5/config_examples/example_pipeline.yml`
+* `mdsh5/examples/end_to_end_pipeline.py`
+
 Additionally, use the help flag to print out the help message from `read_mds`:
 ```
 % read_mds -h
